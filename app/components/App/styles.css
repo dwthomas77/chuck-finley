@@ -1,0 +1,17 @@
+body {}
+
+.app h2 {
+  border-bottom: 2px black solid;
+}
+
+.cf-map-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: scroll;
+}
+
+.cf-map {
+
+}

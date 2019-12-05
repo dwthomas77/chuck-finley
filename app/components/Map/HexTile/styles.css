@@ -1,0 +1,44 @@
+.hex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: thin transparent solid;
+  cursor: default;
+  width: 30px;
+  height: 30px;
+}
+
+.hex.--water {
+  color: blue;
+}
+
+.hex.--land {
+  color:#CA8A4F;
+}
+
+.hex.--has-unit {
+  cursor: pointer;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.hex.--has-unit:hover {
+  border: thin green solid;
+}
+
+.hex.--is-selected, .hex.--in-range {
+  border: thin green solid;
+  cursor: pointer;
+}
+
+.ascii-ship {
+  font-size: 20px;
+  font-weight: bold;
+  color: #98500F;
+}
+
+.tiny {
+  font-size: 6px;
+
+  color: black;
+  z-index: 10;
+}

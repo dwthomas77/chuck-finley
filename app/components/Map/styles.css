@@ -1,0 +1,7 @@
+.cf-map__row {
+  display: flex;
+}
+
+.cf-map__row:nth-child(even) {
+  margin-left: 15px;
+}
